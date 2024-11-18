@@ -1,4 +1,3 @@
-# Load environment variables from .env file
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -21,23 +20,23 @@ You are a highly skilled AI code reviewer built into an intuitive Python applica
 Ensure feedback is clear, actionable, and focuses on best practices to enhance code quality and user learning.
 """
 
-# Function to fetch the model's response
+
 def get_response(system_prompt, user_code):
     response = model.generate_content([system_prompt, user_code])
     return response.text
 
-# Web application title
+
 st.title(":robot_face: AI-Powered Code Reviewer")
 
-# Text area for user input
+
 code_input = st.text_area("Paste your Python code here:")
 
-# Button to trigger code review
+
 generate_button = st.button("Review Code")
 
 st.header("Review Results")
 
-# Action on button click
+
 if generate_button:
     try:
         result = get_response(sys_prompt, code_input)
