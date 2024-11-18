@@ -13,6 +13,10 @@ User-Friendly Interface: Built with Streamlit for easy interaction.
 
 Technologies Used
 Python: Programming language used for the application.
+
+
 Streamlit: Framework for building the interactive web interface.
+
 Google Generative AI: The AI model used for code analysis and review.
+
 dotenv: To securely handle API keys.
