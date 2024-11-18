@@ -12,6 +12,8 @@ User-Friendly Interface: Built with Streamlit for easy interaction.
 
 
 Technologies Used
+
+
 Python: Programming language used for the application.
 
 
